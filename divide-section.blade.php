@@ -1,0 +1,1 @@
+<div class="border-t border-slate-300"></div>
