@@ -1,9 +1,9 @@
 # Geop Laravel Components
 ### Tools
- - Laravel
  - Tailwind CSS
  - Alpine JS
  - Livewire
+ - Laravel
 
 > This will be the library of my components
 
