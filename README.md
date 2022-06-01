@@ -4,6 +4,16 @@
  - Alpine JS
  - Livewire
  - Laravel
+ 
+### Model with Timestamps
+
+```php
+$products = Product::whereDate('created_at', '2018-01-31')->get(); 
+$products = Product::whereMonth('created_at', '12')->get(); 
+$products = Product::whereDay('created_at', '31')->get(); 
+$products = Product::whereYear('created_at', date('Y'))->get(); 
+$products = Product::whereTime('created_at', '=', '14:13:58')->get();
+```
 
 > This will be the library of my components
 
